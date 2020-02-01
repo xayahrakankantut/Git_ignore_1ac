@@ -1,0 +1,93 @@
+body{
+ font-size: 20px;
+ }
+
+.player {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  text-align: center;
+  line-height: 100px;
+  }
+
+.player1:before {
+ content: "player1";
+}
+
+.player1 {
+ top: 100px;
+ left: 200px;
+ position: absolute;
+ text-align: center;
+ }
+
+.player2:before {
+ content: "player2";
+ }
+
+.player2 {
+ top: 100px;
+ left: 800px;
+ position: absolute;
+ text-align: center;
+ }
+
+.control {
+ width: 300px;
+ height: 200px;
+ border: 3px solid black;
+ position: fixed;
+ top: 250px;
+ }
+
+.player1 .control {
+ left: 100px;
+  }
+
+.player2 .control{
+ right: 350px;
+ }
+
+.key {
+ height: 70px;
+ width: 70px;
+ border: 1px solid blue;
+ position: absolute;
+ font-size: 60px;
+ line-height: 60px;}
+
+.up {
+ left: 115px;
+ top: 14px;}
+
+.down {
+ left: 115px;
+ top: 85px;}
+
+.left {
+ left: 45px;
+ top: 85px;
+ }
+
+.right {
+ left: 185px;
+ top: 85px;
+ }
+
+.up:before {
+ content: '\002191';
+
+ }
+
+.left:before {
+ content: '\002190';
+ }
+
+.down:before {
+ content: '\002193';
+ }
+
+.right:before {
+ content: '\002192';
+ }
